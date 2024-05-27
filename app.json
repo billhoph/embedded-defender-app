@@ -3,7 +3,7 @@
     "test": {
       "scripts": {
         "test-setup": "pip install checkov",
-        "test": "checkov -d . --prisma-api-url https://api4.prismacloud.io --bc-api-key 9d97698f-c9ee-4a53-b5e9-f50914aa1eea::47Y117gvD8H4bfoA3+rj6JRqk+E= --quiet --compact --repo-id heroku/code-check"
+        "test": "checkov -d . --use-enforcement-rules --prisma-api-url https://api4.prismacloud.io --bc-api-key 9d97698f-c9ee-4a53-b5e9-f50914aa1eea::47Y117gvD8H4bfoA3+rj6JRqk+E= --quiet --compact --repo-id heroku/code-check"
       }
     }
   }
