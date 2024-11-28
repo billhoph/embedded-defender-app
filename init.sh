@@ -4,4 +4,4 @@ set -e
 echo "Starting SSH ..."
 service ssh start
 
-python /code/manage.py runserver 0.0.0.0:8080
+python /code/manage.py runserver 0.0.0.0:8000
